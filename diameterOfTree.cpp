@@ -189,7 +189,7 @@ int main() {
     levelOrderTraversal(root);
     // 1 3 5 7 11 17 -1 -1 -1 -1 -1 -1 -1
     cout<<findNode(root)<<endl;
-    cout<<DiameterOfTree(root)<<endl;
+    cout<<fastDiameter(root).second<<endl;
     /*
     //creating a Tree
     root = buildTree(root);
